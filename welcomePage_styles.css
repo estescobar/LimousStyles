@@ -1,0 +1,76 @@
+h3{
+  text-align: justify;
+  color: #222831;
+}
+#root{
+  height: 100%;
+  display: block;
+  background: blue;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.root_section{
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  background: #ffffff;
+}
+
+
+.root_section_div{
+  width: 50%;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0
+}
+
+
+.login-register{
+  display: block;
+  width: 235px;
+  margin: auto;
+  margin-top: 50px;
+}
+.login-register button{
+  display: block;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  color: #222831;
+  cursor: pointer;
+  height: 35px;
+}
+.login-register button:hover{
+  color: white;
+  background: #222831;
+}
+
+
+.main_container{
+  display: block;
+  width: 100%;
+}
+.main_container img{
+  width: 20%;
+  margin: 0 auto;
+  display: block;
+}
+.main_container h1{
+  padding: 10px 90px;
+  color: #222831;
+}
+.main_container h4{
+  text-align: center;
+  color: #222831;
+}

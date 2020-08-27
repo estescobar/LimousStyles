@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+html, body{
+  height: 100%;
+}
+body{
+  background: #F7F7F7;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+li, a{
+  text-decoration: none;
+  list-style: none;
+}
+form > input{
+  display: block;
+  margin-top: 20px;
+}
+input, button{
+  background: white;
+  border: 1px solid #222831;
+  border-radius: 3px;
+}
+p{
+  color: #222831;
+}
+footer{
+  padding: 0 0;
+  background: #b5b5b5;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+a{
+  color: darkblue;
+}
+
+a:active{
+  color: lightblue;
+}
+.navbar{
+  height: 9%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  min-height: 50px;
+  background: pink;
+  width: 100%;
+  margin-bottom: 0;
+  top: 0;
+}
+.navbar_fluid{
+  background: #222831;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100%;
+}
+.navbar_header{
+  height: 100%;
+  float: left;
+}
+.navbar_logo_container{
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.navbar_menu_container{
+  display: flex;
+  height: 100%;
+  padding-bottom: 0;
+  float: right;
+}
+.navbar_menu{
+  float: right;
+  display: flex;
+}
+.navbar_menu > li{
+  float: left;
+  display: block;
+  margin-left: 30px;
+}
+.navbar_menu > li > a{
+  color: white;
+  display: block;
+  position: relative;
+  line-height: inherit;
+}
+.footer_fluid{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100%;
+}

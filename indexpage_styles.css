@@ -1,0 +1,86 @@
+h3{
+  text-align: justify;
+  color: #222831;
+}
+#root{
+  height: 100%;
+  display: block;
+  background: blue;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.root_section{
+  display: block;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  background: #F7F7F7;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.root_section_div{
+  height: auto;
+  width: 70%;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  margin: auto;
+  padding: 15px;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+.login-register{
+  display: block;
+  width: 235px;
+  margin: auto;
+  margin-top: 50px;
+}
+.login-register button{
+  display: block;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  color: #222831;
+  cursor: pointer;
+}
+.login-register button:hover{
+  color: white;
+  background: #222831;
+}
+
+/*Post styles begin here*/
+
+.post_img{
+  display: block;
+  width: 100%;
+}
+
+.post_container{
+  width: 45%;
+  padding: 30px;
+  display: block;
+  background: red;
+  justify-content: center;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: -0 1px 3px rgba(34, 40, 49,0.1);
+  margin-bottom: 20px;
+}
+.post_owner_name{
+  margin-top: 0;
+  width: 100%;
+  display: block;
+}
+
+.main_container{
+  display: block;
+  width: 100%;
+}

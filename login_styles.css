@@ -1,0 +1,103 @@
+#root{
+  height: 100%;
+  display: flex;
+  background: blue;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+.root_section{
+  display: block;
+  min-height: 110%;
+  height: 110%;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  background: #F7F7F7;
+  justify-content: center;
+}
+
+.root_section_div{
+  background: white;
+  height: auto;
+  width: 40%;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  margin: auto;
+  margin-top: 130px;
+  padding: 15px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: -0 1px 3px rgba(34, 40, 49,0.1);
+}
+
+.root_section_div_form_tittle{
+  margin: auto;
+  justify-content: center;
+  display: block;
+}
+.root_section_div_form_tittle > img{
+  width: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.root_section_div_form_tittle > h2{
+  text-align: center;
+}
+.login_form{
+  width: 235px;
+}
+.login_form > input{
+  width: calc(100% - 18px);
+  padding: 8px;
+}
+.form_bottom{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.form_bottom > button{
+  padding: 6px 25px;
+  width: 100%
+}
+.checkbox{
+  float: left;
+}
+.remember_div{
+  display: flex;
+  align-items: center;
+}
+.remember_div > p{
+  font-size: 11pt;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.forgot_password{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 10pt;
+}
+a  p{
+  color: darkblue;
+}
+
+a  p:active{
+  color: lightblue;
+}
+.root_section_div2{
+  background: white;
+  height: auto;
+  width: 40%;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  padding: 15px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: -0 1px 3px rgba(34, 40, 49,0.1);
+}

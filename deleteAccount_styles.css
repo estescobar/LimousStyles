@@ -1,0 +1,46 @@
+.deleteAccountContainer{
+  position: absolute;
+  display: none;
+  height: 100%;
+  width: 100%;
+  background: rgba(224, 224, 224, 0.7);
+}
+.deleteAccountBox{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+.deleteAccountFormContainer{
+  background: blue;
+  height: auto;
+  width: 50%;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: -0 1px 3px rgba(34, 40, 49,0.1);
+}
+.delete_account_form_close_div{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.delete_account_form > button{
+  margin-top: 30px;
+  cursor: pointer;
+}
+.delete_account_form  input{
+  margin-top: 30px;
+}
+.delete_account_form_close_div button{
+  background: #222831;
+  color: #ffffff;
+  cursor: pointer;
+}
+.delete_account_form_close_div button:hover{
+  background: #ffffff;
+  color: #222831;
+  cursor: pointer;
+}
